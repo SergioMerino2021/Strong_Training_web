@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Strong training</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" href="img/icon.PNG" type="image/png" sizes="16x16">
+
+</head>
+
+<body>
+
+    <!--Barra de navegación-->
+    <div id="nav">
+
+        <ul>
+            <li><a href="#header"><i class="fas fa-home active"></i></a></li>
+            <li><a href="view/contactos.html"><i class="fas fa-mail-bulk"></i></a></li>
+            <li><a href="view/info.html"><i class="fas fa-info-circle"></i></a></li>
+
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><i class="fas fa-download"></i></a>
+                <div class="dropdown-content">
+                    <a href="https://play.google.com/store/"><i class="fab fa-android"></i>    Android</a>
+                    <a href="https://www.apple.com/es/"><i class="fab fa-apple"></i>    iOS</a>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="header" id="header">
+        <h1>STRONG</h1>
+        <h1>TRAINING</h1>
+
+    </div>
+
+    <div class="row">
+        <div class="multicolor"></div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="two-column">
+            <h1>¿Que quieres hacer?</h1>
+            <p>- Perder peso</p>
+            <p>- Mantenerte</p>
+            <p>- Augmentar Peso</p>
+        </div>
+
+        <div class="two-column">
+            <img src="img/deportistas.jpg">
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="multicolor"></div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="two-column">
+            <img src="img/botones.png">
+        </div>
+
+        <div class="two-column">
+            <h1>Personaliza la app con:</h1>
+            <p>- Horario</p>
+            <p>- Esfuerzo</p>
+            <p>- Rutinas</p>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="multicolor"></div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="two-column pad_bot">
+            <h1>Disponible:</h1>
+            <p>- Android 5 para adelante</p>
+            <p>- iOS 10 para adelante</p>
+        </div>
+
+        <div class="two-column">
+            <div class="two-column" id="Android">
+                <img src="img/android.jpg">
+            </div>
+            <div class="two-column" id="iOS">
+                <img src="img/IOS-Emblem.jpg">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="multicolor"></div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="two-column">
+            <img src="img/server.jpg">
+        </div>
+
+        <div class="two-column">
+            <h1><i class="fas fa-server icon"></i> Servidores <i class="fas fa-server icon"></i></h1>
+            <p>- Actualizacion Diaria <i class="fas fa-level-up-alt icon"></i></p>
+            <p>- BBDD completas (Ejercicios,Entrenamientos...) <i class="fas fa-database icon"></i></p>
+            <p>- Confidencialidad con el Usuario <i class="fas fa-shield-alt icon"></i></p>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="multicolor"></div>
+
+    </div>
+
+    <div class="footer">
+        <h4><i class="fab fa-medapps"></i> STRONG.CO</h4>
+        <h4>En colaboración con G8 <i class="fas fa-hammer"></i></h4>
+
+    </div>
+
+
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("nav").style.backgroundColor = "grey";
+            } else {
+                document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,0.0)";
+            }
+        }
+    </script>
+</body>
+
+</html>

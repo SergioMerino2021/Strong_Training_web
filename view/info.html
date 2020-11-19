@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Strong training</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="../css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="icon" href="../img/icon.PNG" type="image/png" sizes="16x16">
+
+</head>
+
+<body>
+
+    <!--Barra de navegación-->
+    <div id="nav">
+
+        <ul>
+            <li><a href="../index.html"><i class="fas fa-home"></i></a></li>
+            <li><a href="contactos.html"><i class="fas fa-mail-bulk"></i></a></li>
+            <li><a href="#header"><i class="fas fa-info-circle active"></i></a></li>
+
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><i class="fas fa-download"></i></a>
+                <div class="dropdown-content">
+                    <a href="https://play.google.com/store/"><i class="fab fa-android"></i>    Android</a>
+                    <a href="https://www.apple.com/es/"><i class="fab fa-apple"></i>    iOS</a>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="header" id="header">
+        <h1>STRONG</h1>
+        <h1>TRAINING</h1>
+
+    </div>
+
+
+    <div class="row">
+        <div class="multicolor"></div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="two-column">
+            <h1>Entrenamientos perosnalizados según tu exigencia</h1>
+            <p>Podrás elegir el tipo de entrenamiento que quieres hacer y en cuánto tiempor tiempo quieres obtener resultados, para que nosostros te ofrezcamos un entrenamiento acorde a tus preferencias </p>
+        </div>
+        <div class="two-column">
+            <img src="../img/1.jpg">
+        </div>
+    </div>
+    <div class="row">
+        <div class="multicolor"></div>
+
+    </div>
+
+    <!--Sección 2-->
+    <div class="row">
+        <div class="two-column">
+            <img src="../img/2.jpg">
+        </div>
+        <div class="two-column">
+            <h1>Rutinas de reducción o aumento de masa corporal y masa muscular</h1>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="multicolor"></div>
+
+    </div>
+
+    <div class="footer">
+        <h4><i class="fab fa-medapps"></i> STRONG.CO</h4>
+        <h4>En colaboración con G8 <i class="fas fa-hammer"></i></h4>
+
+    </div>
+
+
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("nav").style.backgroundColor = "grey";
+            } else {
+                document.getElementById("nav").style.backgroundColor = "rgba(0,0,0,0.0)";
+            }
+        }
+    </script>
+</body>
+
+</html>
